@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-    
-    <div id="signup">
-      <input id="text" type="text" />
-      <input id="password" type="password" />
-      <a href="signin.html"><button>sign up</button></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="madia-query.css">
+</head>
+
+<body>
+
+
+  <div class="w-50 width-mediaq shadow-lg  p-sm-5 " id="signup">
+
+    <h1 class="mb-4 text-info">Smart Login System</h1>
+    <div class="mb-3">
+      <input placeholder="ENTER YOUR NAME" class="form-control" id="username-signup" type="text" />
+    </div>
+    <div class="mb-3">
+      <input placeholder="ENTER YOUR E-MAIL" class="form-control" id="email-signup" type="email" />
+    </div>
+    <div class="mb-3">
+      <input placeholder="ENTER PASSWORD" class="form-control" id="password-signup" type="password" />
     </div>
 
-    <script src="main.js"></script>
-  </body>
+    <div> <a href="signin.html"><button id="button-signup" class="btn w-100 btn-info text-info">Sign up</button></a>
+    </div>
+
+    <p class="text-white mt-3">You have an account? <a id="a-signup-click" href="signin.html">Signin</a></p>
+  </div>
+
+
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,131 @@
+
+/* Smartphones iPhone 4  any small screen*/
+
+@media  (min-width: 0px) and (max-width: 320px)  
+{
+    
+    .width-mediaq{
+        width: 90% !important;
+        padding: 20px;
+        margin-top:50px !important;
+       }
+
+       #welcome{
+        width: 90%;
+       }
+
+       .padding-sm{
+        padding:15px 20px !important ;
+       }
+    
+}
+
+
+@media  (min-width: 321px)and (max-width: 480px) 
+{
+   
+    
+    .width-mediaq{
+        width: 90% !important;
+        padding: 30px;
+        margin-top: 100px !important;
+       }
+
+       #welcome{
+        width: 90%;
+       }
+
+    
+}
+
+
+@media  (min-width: 481px) and (max-width: 640px)   
+    
+{
+   .width-mediaq{
+    width: 90% !important;
+    padding: 50px;
+   }
+
+   #welcome{
+    width: 80%;
+   }
+    
+}
+ 
+
+@media  (min-width: 641px) and (max-width: 800px)   
+    
+{
+    
+    .width-mediaq{
+        width: 70% !important;
+       }
+
+       #welcome{
+        width: 70%;
+       }
+    
+    
+    
+}
+
+
+@media  (min-width: 801px) and (max-width: 1024px)  
+{
+
+    .width-mediaq{
+        width: 70% !important;
+       }
+
+       #welcome{
+        width: 60%;
+       }
+    
+    
+}
+
+/* Desktops and laptops  small screne]----------- */
+@media  (min-width: 1025px) and (max-width: 1280px) 
+{
+    
+    
+
+    
+}
+ 
+/* Desktops and laptops ----------- */
+
+@media  (min-width: 1281px) and (max-width: 1800px) 
+       
+{
+    
+
+    
+  
+}
+
+@media (min-device-width:1801px)and (max-device-width: 2200px){
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
