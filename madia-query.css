@@ -18,6 +18,10 @@
         padding:15px 20px !important ;
        }
     
+
+       .p-font{
+        font-size: 10px;
+       }
 }
 
 
@@ -35,6 +39,10 @@
         width: 90%;
        }
 
+       .p-font{
+        font-size: 10px;
+       }
+
     
 }
 
@@ -49,6 +57,10 @@
 
    #welcome{
     width: 80%;
+   }
+
+   .p-font{
+    font-size: 13px;
    }
     
 }
@@ -65,6 +77,12 @@
        #welcome{
         width: 70%;
        }
+
+
+       .p-font{
+        font-size: 13px;
+       }
+        
     
     
     
