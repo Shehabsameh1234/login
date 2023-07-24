@@ -22,11 +22,11 @@ var validpassword = validpass.test( passup.value)
 
 
     var objup = {
-        usernameup: nameup.value.toLowerCase(),
-        emialsignup: emailup.value.toLowerCase(),
+        usernameup: nameup.value.trim().toLowerCase(),
+        emialsignup: emailup.value.trim().toLowerCase(),
         passwordup: passup.value
     }
-
+console.log(objup.usernameup)
 
   if(validusername==true && validemailenter==true && validpassword==true){
     signuparr.push(objup)
