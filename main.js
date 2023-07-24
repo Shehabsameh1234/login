@@ -129,7 +129,7 @@ function clearinputs() {
 
 
 
-weluser.innerHTML="welcome"
+// weluser.innerHTML="welcome"
 
 
 
