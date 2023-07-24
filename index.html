@@ -20,23 +20,27 @@
     <div class="mb-1">
       <input placeholder="ENTER YOUR NAME" class="form-control" id="username-signup" type="text" />
     </div>
-    <p class="text-info p-font m-2" >EX...SHEHABSAMEH (Don’t USE NUMBERS AND TAGS)</p>
+    <p class="text-info p-font m-2">EX...SHEHABSAMEH (Don’t USE NUMBERS AND TAGS)</p>
     <div class="mb-1">
       <input placeholder="ENTER YOUR E-MAIL" class="form-control" id="email-signup" type="email" />
     </div>
     <p class="text-info p-font m-2">EX...SHEHABSAMEH123@GMAIL.COM </p>
+    <h4 id="taken" >email already taken</h4>
 
-    <div class="mb-1">
-      <input placeholder="ENTER PASSWORD"  class="form-control" id="password-signup" type="password" />
+    <div class="mb-1 ggg">
+      <input placeholder="ENTER PASSWORD" class="form-control" id="password-signup" type="password" />
+      <i id="icon-up" onclick="iconsignup()" class="fa-regular  eye-pass  text-info fa-eye"></i>
     </div>
-    <i id="icon-up"    class="fa-regular  eye-pass  text-info fa-eye"></i>
+
     <p class="text-info p-font m-2">EX...shehab1234(eight characters at least) </p>
 
+    <h5 id="required" class=" mb-3 "></h5>
 
-    <div> <a ><button onclick="signupfun()" id="button-signup" class="btn w-100 btn-info text-info">Sign up</button></a>
+    <div> <a><button onclick="signupfun()" id="button-signup" class="btn w-100 btn-info text-info">Sign up</button></a>
     </div>
 
     <p class="text-white mt-3">You have an account? <a id="a-signup-click" href="signin.html">Signin</a></p>
+
   </div>
 
 

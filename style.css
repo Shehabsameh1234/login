@@ -20,20 +20,20 @@ body {
     margin: 60px auto;
 }
 
-#signup,#login{
+.ggg{
     position: relative;
 }
 
 .eye-pass{
-    position: absolute;
-    right: 6%;
-    top: 58%;
+   position: absolute;
+top: 35%;
+right: 3%;
 
 }
 .eye-pass1{
     position: absolute;
-    right: 6%;
-    top: 50%;
+    right: 3%;
+    top: 30%;
 
 }
 
@@ -87,4 +87,19 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+
+#required{
+    display: none;
+    
+}
+
+#taken{
+    display: none;
+}
+
+
+#requiredlog{
+    display: none;
 }

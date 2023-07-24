@@ -21,12 +21,14 @@
     <div>
       <input placeholder="ENTER YOUR EMAIL" class="form-control mb-3" id="email-signin" type="email" />
     </div>
-    <div>
+    <div class="position-relative">
       <input placeholder="ENTER YOUR PASSWORD" class="form-control mb-3" id="password-signin" type="password" />
+      <i id="iconlog"  class="fa-regular eye-pass1  text-info fa-eye"></i>
+
     </div>
-    <i class="fa-regular  eye-pass1  text-info fa-eye"></i>
+    <h5 id="requiredlog" class="mb-3" > </h5>
     <div>
-      <a href="home1.html" ><button class="btn w-100 btn-info text-info">Log in</button></a>
+      <a  id="toprofile" ><button onclick="loginfun()" class="btn w-100 btn-info text-info">Log in</button></a>
       <p class="text-white mt-3">Don’t have an account? <a href="index.html">Sign Up</a></p>
     </div>
   </div>
