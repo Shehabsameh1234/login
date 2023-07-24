@@ -2,7 +2,7 @@ var nameup = document.getElementById("username-signup")
 var emailup = document.getElementById("email-signup")
 var passup = document.getElementById("password-signup")
 var btnup = document.getElementById("button-signup")
-var iconup=document.getElementById("icon-up")
+var iconup = document.getElementById("icon-up")
 
 
 var validname = /^[a-zA-Z ]{3,20}$/;
@@ -45,8 +45,12 @@ function signupfun() {
 }
 
 
-iconup.addEventListener("click",function(){
-  passup.setAttribute("type","text")
+iconup.addEventListener("click", function () {
+  if (passup.getAttribute("type") == "password") {
+    passup.setAttribute("type", "text")
+  } else { passup.setAttribute("type", "password") }
 })
+
+
 
 
