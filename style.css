@@ -20,7 +20,7 @@ body {
     margin: 60px auto;
 }
 
-#signup{
+#signup,#login{
     position: relative;
 }
 
@@ -28,6 +28,12 @@ body {
     position: absolute;
     right: 6%;
     top: 58%;
+
+}
+.eye-pass1{
+    position: absolute;
+    right: 6%;
+    top: 50%;
 
 }
 

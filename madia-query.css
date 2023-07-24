@@ -22,6 +22,20 @@
        .p-font{
         font-size: 10px;
        }
+
+       .eye-pass{
+        position: absolute;
+        right: 13%;
+        top: 58%;
+    
+    }
+
+    .eye-pass1{
+        position: absolute;
+        right: 11%;
+        top: 47%;
+    
+    }
 }
 
 
@@ -43,6 +57,20 @@
         font-size: 10px;
        }
 
+       .eye-pass{
+        position: absolute;
+        right: 14%;
+        top: 56.5%;
+    
+    }
+
+    .eye-pass1{
+        position: absolute;
+        right: 13%;
+        top: 48%;
+    
+    }
+
     
 }
 
@@ -62,6 +90,19 @@
    .p-font{
     font-size: 13px;
    }
+
+   .eye-pass{
+    position: absolute;
+    right: 13%;
+    top: 56.5%;
+
+}
+.eye-pass1{
+    position: absolute;
+    right: 13%;
+    top: 48.5%;
+
+}
     
 }
  
@@ -83,7 +124,18 @@
         font-size: 13px;
        }
         
+       .eye-pass{
+        position: absolute;
+        right: 13%;
+        top: 57%;
     
+    }
+    .eye-pass1{
+        position: absolute;
+        right: 13%;
+        top: 49%;
+    
+    }
     
     
 }
@@ -99,6 +151,20 @@
        #welcome{
         width: 60%;
        }
+
+       .eye-pass{
+        position: absolute;
+        right: 11%;
+        top: 57.5%;
+    
+    }
+    .eye-pass1{
+        position: absolute;
+        right: 9%;
+        top: 50%;
+    
+    }
+
     
     
 }
@@ -107,7 +173,19 @@
 @media  (min-width: 1025px) and (max-width: 1280px) 
 {
     
+    .eye-pass{
+        position: absolute;
+        right: 12%;
+        top: 58%;
     
+    }
+
+    .eye-pass1{
+        position: absolute;
+        right: 11%;
+        top: 50%;
+    
+    }
 
     
 }
@@ -115,10 +193,21 @@
 /* Desktops and laptops ----------- */
 
 @media  (min-width: 1281px) and (max-width: 1800px) 
-       
+    
 {
     
-
+    .eye-pass{
+        position: absolute;
+        right: 9%;
+        top: 58%;
+    
+    }
+    .eye-pass1{
+        position: absolute;
+        right: 9%;
+        top: 50%;
+    
+    }
     
   
 }
