@@ -20,6 +20,17 @@ body {
     margin: 60px auto;
 }
 
+#signup{
+    position: relative;
+}
+
+.eye-pass{
+    position: absolute;
+    right: 6%;
+    top: 58%;
+
+}
+
 #signup div a .btn-info,
 #login div a .btn-info,
 .padding-sm a .btn-info {
