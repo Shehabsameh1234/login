@@ -117,18 +117,24 @@ function loginfun() {
     loginrequrired.innerHTML = "wrong data"
   }
 
+
+  // get username  of email 
   var emailsignvalue = emailsign.value
   index = signuparr.findIndex(x => x.emialsignup == emailsignvalue);
-  var indesofemailsignvalue = (signuparr[index])
-  var valueobj = Object.values(indesofemailsignvalue)
+  var indexsofemailsignvalue = (signuparr[index])
+  var valueobj = Object.values(indexsofemailsignvalue)
   var nameof = valueobj[0]
-  localStorage.setItem("a7a", JSON.stringify(nameof))
+  localStorage.setItem("username", JSON.stringify(nameof))
+    // get username  of email 
+
   
 }
 
-var she=JSON.parse(localStorage.getItem("a7a"))
-console.log(she)
-weluser.innerHTML="welcom "+she
+// get username from localstorage and show it in welcomepage
+var username=JSON.parse(localStorage.getItem("username"))
+weluser.innerHTML="welcom "+username
+// get username from localstorage and show it in welcomepage
+
 
 // log in function and check if data exist or not
 
