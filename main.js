@@ -1,5 +1,4 @@
 
-
 // get elemnts form html
 var nameup = document.getElementById("username-signup")
 var emailup = document.getElementById("email-signup")
@@ -12,17 +11,16 @@ var iconlogin = document.getElementById("iconlog")
 var passignin = document.getElementById("password-signin")
 var profile = document.getElementById("toprofile")
 var emailsign = document.getElementById("email-signin")
-var logreq = document.getElementById("requiredlog")
+var loginrequrired = document.getElementById("requiredlog")
 var weluser = document.getElementById("welcomeuser")
-// get elemnts form html
 
+// get elemnts form html
 
 // regex code for validation
 var validname = /^[a-zA-Z ]{3,20}$/;
 var validemail = /^[\w-\.]+@([a-z]+\.)+[a-z]{2,4}$/;
 var validpass = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
 // regex code for validation
-
 
 // create new acc and save it in local storage
 var signuparr = []
@@ -32,7 +30,6 @@ if (localStorage.data != null) {
 }
 
 function signupfun() {
-
   var validusername = validname.test(nameup.value)
   var validemailenter = validemail.test(emailup.value)
   var validpassword = validpass.test(passup.value)
@@ -89,7 +86,7 @@ function signupfun() {
 // create new acc and save it in local storage
 
 
-// log in function and chek if data exist or not
+// log in function and check if data exist or not
 function loginfun() {
 
 
@@ -111,19 +108,18 @@ function loginfun() {
   }
   else if
     (passignin.value == "" && emailsign.value == "") {
-    logreq.style.color = "red"
-    logreq.style.display = "block"
-    logreq.innerHTML = "ALL INPUTS ARE REQUIRED"
+    loginrequrired.style.color = "red"
+    loginrequrired.style.display = "block"
+    loginrequrired.innerHTML = "ALL INPUTS ARE REQUIRED"
   }
 
   else if (emailsign.value != opj1.emailemail && passignin.value != opj1.namename) {
-    logreq.style.color = "red"
-    logreq.style.display = "block"
-    logreq.innerHTML = "wrong data"
+    loginrequrired.style.color = "red"
+    loginrequrired.style.display = "block"
+    loginrequrired.innerHTML = "wrong data"
   }
 }
-// log in function and chek if data exist or not
-
+// log in function and check if data exist or not
 
 // clear inputs after signnup
 function clearinputs() {
@@ -158,16 +154,20 @@ function iconsignup() {
 
 
 
-// function k() {
 
-//   var emailsignvalue = emailsign.value
-//   index = signuparr.findIndex(x => x.emialsignup == emailsignvalue);
-//   var indesofemailsignvalue = (signuparr[index])
-//   var valueobj = Object.values(indesofemailsignvalue)
-//   var nameof = valueobj[0]
-//   console.log(nameof)
 
-// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

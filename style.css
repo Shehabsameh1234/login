@@ -10,10 +10,14 @@ body {
 }
 
 /* global */
-#login,
-#signup,
+
 #logout {
     text-align: center;
+    margin: 60px auto;
+}
+
+#login,
+#signup{
     margin: 60px auto;
 }
 
@@ -23,8 +27,9 @@ body {
 
 .eye-pass {
     position: absolute;
-    top: 35%;
+    top: 60%;
     right: 3%;
+    cursor: pointer;
 
 }
 
@@ -32,6 +37,7 @@ body {
     position: absolute;
     right: 3%;
     top: 30%;
+    cursor: pointer;
 }
 
 #signup div a .btn-info,
