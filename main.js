@@ -102,6 +102,7 @@ function loginfun() {
 
   if (emailsign.value == opj1.emailemail && passignin.value == opj1.namename) {
     profile.setAttribute("href", "home1.html")
+   
   }
   else if
     (passignin.value == "" && emailsign.value == "") {
@@ -115,7 +116,20 @@ function loginfun() {
     loginrequrired.style.display = "block"
     loginrequrired.innerHTML = "wrong data"
   }
+
+  var emailsignvalue = emailsign.value
+  index = signuparr.findIndex(x => x.emialsignup == emailsignvalue);
+  var indesofemailsignvalue = (signuparr[index])
+  var valueobj = Object.values(indesofemailsignvalue)
+  var nameof = valueobj[0]
+  localStorage.setItem("a7a", JSON.stringify(nameof))
+  
 }
+
+var she=JSON.parse(localStorage.getItem("a7a"))
+console.log(she)
+weluser.innerHTML="welcom "+she
+
 // log in function and check if data exist or not
 
 // clear inputs after signnup
