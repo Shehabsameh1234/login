@@ -58,7 +58,7 @@ body {
 
 #signup input::placeholder,
 #login input::placeholder {
-    color: white;
+    color: rgb(163, 161, 161);
 }
 
 #signup p a,
