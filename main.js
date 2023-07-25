@@ -13,7 +13,6 @@ var profile = document.getElementById("toprofile")
 var emailsign = document.getElementById("email-signin")
 var loginrequrired = document.getElementById("requiredlog")
 var weluser = document.getElementById("welcomeuser")
-
 // get elemnts form html
 
 // regex code for validation
@@ -44,8 +43,6 @@ function signupfun() {
     var values = Object.values(emailvalue)
     var newemail = values[1]
   }
-
-
   inputreq.style.display = "none"
 
   // if data corret , make a new acc
