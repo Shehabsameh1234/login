@@ -117,7 +117,6 @@ function loginfun() {
     loginrequrired.innerHTML = "wrong data"
   }
 
-
   // get username  of email 
   var emailsignvalue = emailsign.value
   index = signuparr.findIndex(x => x.emialsignup == emailsignvalue);
@@ -129,14 +128,13 @@ function loginfun() {
 
   
 }
+// log in function and check if data exist or not
+
 
 // get username from localstorage and show it in welcomepage
 var username=JSON.parse(localStorage.getItem("username"))
 weluser.innerHTML="welcom "+username
 // get username from localstorage and show it in welcomepage
-
-
-// log in function and check if data exist or not
 
 // clear inputs after signnup
 function clearinputs() {
