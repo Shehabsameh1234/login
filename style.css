@@ -10,9 +10,6 @@ body {
 }
 
 /* global */
-
-
-
 #login,
 #signup,
 #logout {
@@ -20,21 +17,21 @@ body {
     margin: 60px auto;
 }
 
-.ggg{
+.pos-input {
     position: relative;
 }
 
-.eye-pass{
-   position: absolute;
-top: 35%;
-right: 3%;
+.eye-pass {
+    position: absolute;
+    top: 35%;
+    right: 3%;
 
 }
-.eye-pass1{
+
+.eye-pass1 {
     position: absolute;
     right: 3%;
     top: 30%;
-
 }
 
 #signup div a .btn-info,
@@ -89,17 +86,14 @@ right: 3%;
     text-align: center;
 }
 
-
-#required{
-    display: none;
-    
-}
-
-#taken{
+#required {
     display: none;
 }
 
+#taken {
+    display: none;
+}
 
-#requiredlog{
+#requiredlog {
     display: none;
 }

@@ -9,16 +9,13 @@
         padding: 20px;
         margin-top:50px !important;
        }
-
        #welcome{
         width: 90%;
        }
-
        .padding-sm{
         padding:15px 20px !important ;
        }
     
-
        .p-font{
         font-size: 10px;
        }
@@ -31,26 +28,17 @@
 @media  (min-width: 321px)and (max-width: 480px) 
 {
    
-    
     .width-mediaq{
         width: 90% !important;
         padding: 30px;
         margin-top: 100px !important;
        }
-
        #welcome{
         width: 90%;
        }
-
        .p-font{
         font-size: 10px;
        }
-
-     
-
-   
-
-    
 }
 
 
@@ -68,18 +56,14 @@
 
    .p-font{
     font-size: 13px;
-   }
-
- 
-
-    
+   } 
 }
  
 
 @media  (min-width: 641px) and (max-width: 800px)   
     
 {
-    
+
     .width-mediaq{
         width: 70% !important;
        }
@@ -88,15 +72,9 @@
         width: 70%;
        }
 
-
        .p-font{
         font-size: 13px;
-       }
-        
-     
-   
-    
-    
+       }    
 }
 
 
@@ -110,11 +88,6 @@
        #welcome{
         width: 60%;
        }
-
-    
-   
-
-    
     
 }
 
