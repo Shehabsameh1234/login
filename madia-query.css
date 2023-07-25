@@ -46,7 +46,7 @@
        }
        #signup input::placeholder,
        #login input::placeholder {
-       font-size: 9px;
+       font-size: 8px;
        } 
 }
 
