@@ -89,8 +89,7 @@ function loginfun() {
   }
 
   if (emailsign.value == opj1.emailemail && passignin.value == opj1.namename) {
-    console.log("shehab")
-
+    profile.setAttribute("href","home1.html")
   }
   else if
     (passignin.value == "" && emailsign.value == "") {
@@ -106,9 +105,23 @@ function loginfun() {
   }
 
 
-
+   var emailsignvalue = emailsign.value
+  index = signuparr.findIndex(x => x.emialsignup == emailsignvalue);
+ var indesofemailsignvalue = (signuparr[index])
+ var valueobj = Object.values(indesofemailsignvalue)
+ var nameof = valueobj[0]
+  
+console.log(nameof)
+ 
 
 }
+
+
+
+
+
+
+
 
 
 function clearinputs() {
@@ -118,11 +131,13 @@ function clearinputs() {
 }
 
 
-iconlogin.addEventListener("click", function () {
+
+
+function iconsignin() {
   if (passignin.getAttribute("type") == "password") {
     passignin.setAttribute("type", "text")
   } else { passignin.setAttribute("type", "password") }
-})
+}
 
 
 function iconsignup() {
@@ -130,6 +145,10 @@ function iconsignup() {
     passup.setAttribute("type", "text")
   } else { passup.setAttribute("type", "password") }
 }
+
+
+
+
 
 
 
