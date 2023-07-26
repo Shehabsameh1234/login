@@ -133,7 +133,7 @@ function loginfun() {
 
 // get username from localstorage and show it in welcomepage
 var username=JSON.parse(localStorage.getItem("username"))
-weluser.innerHTML="welcom "+username
+weluser.innerHTML="welcome "+username
 // get username from localstorage and show it in welcomepage
 
 // clear inputs after signnup
